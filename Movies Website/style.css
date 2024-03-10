@@ -319,8 +319,12 @@ section nav .right ul li a:hover:after {
 }
 
 .sidebar .image-text i {
-    width: 45px;
-    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-color);
+    margin-top: 20px;
+    min-width: 60px;
 }
 
 .sidebar header {
@@ -415,7 +419,7 @@ body.dark .sidebar li a:hover .text {
 }
 
 .sidebar .menu {
-    margin-top: 35px;
+    margin-top: 20px;
 }
 
 .sidebar .menu-bar {
